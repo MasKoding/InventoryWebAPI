@@ -36,7 +36,7 @@ namespace InventoryWebAPI.Controllers
             return await _context.Products.ToListAsync();
         }
 
-        // GET: ProductsController/Details/5
+      /*  // GET: ProductsController/Details/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Products>> GetProducts(int id)
         {
@@ -114,6 +114,6 @@ namespace InventoryWebAPI.Controllers
         {
             return _context.Products.Any(e => e.ProductId == id);
         }
-
+*/
     }
 }

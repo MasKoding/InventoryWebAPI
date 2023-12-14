@@ -32,7 +32,7 @@ namespace InventoryWebAPI.Controllers
 
         [HttpPost("submit")]
        
-        public async Task<IActionResult> Post([FromBody]UserInfo _userData)
+        public async Task<IActionResult> Post([FromBody] UserInfoModelView _userData)
         {
 
             if (_userData != null && _userData.Email != null && _userData.Password != null)
